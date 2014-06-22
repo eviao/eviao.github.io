@@ -1,0 +1,11 @@
+# Site settings
+title: a programmer
+username: eviao
+email: eviao.dev@gmail.com
+description: "."
+baseurl: ""
+url: "http://eviao.com"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
