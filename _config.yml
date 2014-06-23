@@ -7,7 +7,7 @@ username: eviao
 email: eviao.dev@gmail.com
 description: "."
 baseurl: ""
-url: "http://127.0.0.1:4000"
+url: "http://eviao.github.io"
 
 # Build settings
 markdown: kramdown
