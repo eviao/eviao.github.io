@@ -1,10 +1,13 @@
+# global settings
+exclude: ["node_modules"]
+
 # Site settings
 title: Caecs Dia
 username: eviao
 email: eviao.dev@gmail.com
 description: "."
 baseurl: ""
-url: "http://eviao.com"
+url: "http://127.0.0.1:4000"
 
 # Build settings
 markdown: kramdown
