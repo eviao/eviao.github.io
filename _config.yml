@@ -2,12 +2,18 @@
 exclude: ["node_modules"]
 
 # Site settings
-title: Caecs Dia
-username: eviao
-email: eviao.dev@gmail.com
-description: "."
+title: "Caecs Dia"
+description: ""
 baseurl: ""
 url: "http://eviao.github.io"
+
+# Owner settings
+owner:
+  name:         "eviao"
+  avatar:       
+  bio:          "i'm programmer."
+  email:        "eviao.dev@gmail.com"      
+  github:       "eviao" 
 
 # Build settings
 markdown: kramdown

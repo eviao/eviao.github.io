@@ -4,7 +4,7 @@ var less = require('gulp-less');
 var rimraf = require('rimraf');
 
 var paths = {
-  less: 'assets/less/*.less'
+  less: 'assets/less/main.less'
 };
 
 // Not all tasks need to use streams
