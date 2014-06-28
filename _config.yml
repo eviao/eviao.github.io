@@ -7,6 +7,12 @@ description: ""
 baseurl: ""
 url: "http://eviao.github.io"
 
+reading_time:     true
+words_per_minute: 200
+
+paginate: 5
+paginate_path: "page/:num"
+
 # Owner settings
 owner:
   name:         "eviao"
