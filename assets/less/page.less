@@ -37,7 +37,7 @@ body {
 		margin: 10px 20px;
 		font-weight: 700;
 		.font-rem(28);
-		color: lighten(@base-color,20);
+		color: lighten(@base-color,15);
 		@media @medium {
 			.font-rem(48);
 		}
@@ -49,7 +49,7 @@ body {
 		margin: 0;
 		.font-rem(18);
 		text-transform: uppercase;
-		color: lighten(@base-color,40);
+		color: lighten(@base-color,35);
 		@media @medium {
 			.font-rem(30);
 		}
@@ -157,9 +157,9 @@ body {
 .entry-meta {
 	.font-rem(12);
 	text-transform: uppercase;
-	color: lighten(@base-color,60);
+	color: lighten(@base-color,10);
 	a {
-		color: lighten(@base-color,60);
+		color: lighten(@base-color,10);
 	}
 	.vcard {
 		&:before {
@@ -170,7 +170,7 @@ body {
 		display: inline-block;
 		margin: 4px;
 		padding: 2px 6px;
-		background-color: lighten(@base-color,60);
+		background-color: @base-color;
 		color: @white;
 		.rounded(3px);
 		color: @white;
@@ -179,7 +179,7 @@ body {
 			.font-rem(10);
 		}
 		&:hover {
-			background-color: lighten(@base-color,50);
+			background-color: lighten(@base-color,25);
 		}
 		&:active {
 			.translate(0, 1px);
@@ -192,7 +192,7 @@ body {
 	.entry-content {
 		margin: 40px 2px 20px 2px;
 		padding: 10px 15px;
-		background-color: @white;
+		background-color: @content-color;
 		box-shadow: 0 0 0 0, 0 6px 12px fade(@black,10);
 		.rounded(3px);
 		@media @medium {
@@ -258,7 +258,7 @@ body {
 	position: relative;
 	margin: 40px 2px 20px 2px;
 	padding: 40px 15px 25px;
-	background-color: @white;
+	background-color: @content-color;
 	box-shadow: 0 0 0 1px fade(@border-color,10), 0 6px 12px fade(@black,10);
 	.rounded(3px);
 	@media @medium {
@@ -345,8 +345,8 @@ body {
 		}
 	}
 	article {
-		background-color: @white;
-		box-shadow: 0 0 0 0, 0 6px 12px fade(@base-color,10);
+		background-color: @content-color;
+	    box-shadow: 0 0 0 1px fade(@border-color,10), 0 6px 12px fade(@black,10);
 		.rounded(3px);
 		margin-bottom: 20px;
 		padding: 25px 15px;
@@ -414,7 +414,7 @@ body {
 	padding: 8px 20px;
 	display: inline-block;
 	.font-rem(14);
-	background-color: @white;
+	background-color: @content-color;
 	color: @primary;
 	border-width: 2px !important;
 	border-style: solid !important;
